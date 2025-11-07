@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Satyam Prakash — Profile</title>
+		<style>
+			:root{--bg:#f6f8fb;--card:#ffffff;--accent:#2b6cb0;--muted:#6b7280}
+			html,body{height:100%;margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial}
+			body{display:flex;align-items:center;justify-content:center;background:linear-gradient(180deg,var(--bg),#eef3fb);padding:32px}
+			.card{background:var(--card);max-width:720px;width:100%;border-radius:12px;box-shadow:0 6px 20px rgba(38,58,77,.08);display:flex;gap:24px;padding:28px;align-items:center}
+			.avatar{flex:0 0 120px;height:120px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#0ea5a6);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:28px}
+			.content{flex:1}
+			h1{margin:0;font-size:22px;color:#0f172a}
+			.meta{color:var(--muted);margin-top:6px;font-size:14px}
+			.details{display:flex;gap:16px;margin-top:16px;flex-wrap:wrap}
+			.pill{background:#f1f5f9;padding:8px 12px;border-radius:999px;color:#0f172a;font-weight:600;font-size:14px}
+			.section{margin-top:18px;color:#334155}
+			footer{margin-top:18px;color:var(--muted);font-size:13px}
+			@media (max-width:640px){.card{flex-direction:column;align-items:stretch}.avatar{width:100%;height:96px;border-radius:10px}}
+		</style>
+	</head>
+	<body>
+		<main class="card" role="main">
+			<div class="avatar" aria-hidden="true">SP</div>
+			<div class="content">
+				<h1>Satyam Prakash</h1>
+				<div class="meta">Student — Semester 5</div>
+
+				<div class="details" aria-label="academic details">
+					<div class="pill">Roll: 07</div>
+					<div class="pill">Semester: 5</div>
+					<div class="pill">CGPA: 8.2</div>
+				</div>
+
+				<p class="section">A brief profile page for Satyam Prakash. You can edit this page to add more details like department, projects, contact info, or a photo.</p>
+            </div>
+		</main>
+	</body>
+</html>
